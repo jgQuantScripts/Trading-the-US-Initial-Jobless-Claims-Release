@@ -168,7 +168,7 @@ weeklyClaimsAlgo = function(Symbol, Shares)
     # data
     cat("\nNo DATA YET!\n")
     Sys.sleep(5)
-    weeklyClaimsAlgo()
+    weeklyClaimsAlgo(Symbol="MES", Shares = 1)
   }
 }
 # ***************************************************************************
